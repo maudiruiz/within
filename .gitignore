@@ -21,4 +21,6 @@
 *.swo
 *.*~
 *~
-.DS_Store
+.DS_Stor
+/config/environments/development.rb
+/config/environments/production.rbe

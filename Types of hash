@@ -1,0 +1,21 @@
+Processing by Users::OmniauthCallbacksController#google_oauth2 as HTML
+  Parameters: {"state"=>"ff17f98b25123931b50d7dfcafe972d5e6fbc33c39a309c1", 
+  "code"=>"4/JJxbeIjjcoPdIRvF2Pb9HdQLOm5Y.IvkD6l2jYPwSmmS0T3UFEsNukjyTggI"}
+
+#<OmniAuth::AuthHash credentials=#<OmniAuth::AuthHash expires=true expires_at=1379923092 token="ya29.AHES6ZQ4UEODLpK4eQ0ix_61kRgq9VIeO_tkS_Dl4tLQoeXPqYGJBg"> extra=#<OmniAuth::AuthHash raw_info=#<OmniAuth::AuthHash email="maudiruiz@gmail.com" family_name="ruiz" gender="male" given_name="mauricio" id="100083196832042822240" link="https://plus.google.com/100083196832042822240" locale="es" name="mauricio ruiz" picture="https://lh3.googleusercontent.com/-mnlyPe7jTwc/AAAAAAAAAAI/AAAAAAAAACc/vA0bX7rfA_Y/photo.jpg" verified_email=true>> info=#<OmniAuth::AuthHash::InfoHash email="maudiruiz@gmail.com" first_name="mauricio" image="https://lh3.googleusercontent.com/-mnlyPe7jTwc/AAAAAAAAAAI/AAAAAAAAACc/vA0bX7rfA_Y/photo.jpg" last_name="ruiz" name="mauricio ruiz" urls=#<OmniAuth::AuthHash Google="https://plus.google.com/100083196832042822240">> provider="google_oauth2" uid="100083196832042822240">
+
+
+
+
+
+
+Started GET "/users/auth/google_oauth2/callback?state=ceb7763706f4fa380423ac7ae170a3cea9aab44343ceb291&code=4/9oIHcp8AIZDYU0vm2XDYmzN326Na.Al8RoHWeID8ZmmS0T3UFEsOQET-TggI" for 127.0.0.1 at 2013-09-23 01:59:33 -0500
+Processing by Users::OmniauthCallbacksController#google_oauth2 as HTML
+  Parameters: {"state"=>"ceb7763706f4fa380423ac7ae170a3cea9aab44343ceb291", "code"=>"4/9oIHcp8AIZDYU0vm2XDYmzN326Na.Al8RoHWeID8ZmmS0T3UFEsOQET-TggI"}
+#<OmniAuth::AuthHash credentials=#<OmniAuth::AuthHash expires=true expires_at=1379923175 refresh_token="1/WFvY4iIoFA3coeKuxE2oDsqfQrouiRnyHswzoDLM7lk" token="ya29.AHES6ZRBUBhzJGZpN1TcaD25FPuPNhI9T2wEbOQhMV_gfkQ"> 
+
+extra=#<OmniAuth::AuthHash raw_info=#<OmniAuth::AuthHash email="mau@wannaflock.com" family_name="Ruiz de los Santos" given_name="Mauricio" hd="wannaflock.com" id="102087723527163598696" locale="es" name="Mauricio Ruiz de los Santos" verified_email=true>
+
+> 
+
+info=#<OmniAuth::AuthHash::InfoHash email="mau@wannaflock.com" first_name="Mauricio" last_name="Ruiz de los Santos" name="Mauricio Ruiz de los Santos"> provider="google_oauth2" uid="102087723527163598696">

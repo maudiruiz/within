@@ -23,4 +23,4 @@
 *~
 .DS_Stor
 /config/environments/development.rb
-/config/environments/production.rbe
+/config/environments/production.rb
